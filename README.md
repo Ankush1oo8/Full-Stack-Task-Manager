@@ -2,7 +2,7 @@
 
 A full-stack task management web application built with Next.js 14, MongoDB, and JWT authentication. Users can register, log in, and manage their personal tasks with advanced search, filtering, and pagination features.
 
-![App Screenshot](./screenshots/dashboard.png)
+![App Screenshot](https://github.com/user-attachments/assets/9c4d3fb4-7a65-44ca-8537-6f974404a70e)
 *Main Dashboard - Task Management Interface*
 
 ## 🚀 Features
@@ -45,22 +45,25 @@ A full-stack task management web application built with Next.js 14, MongoDB, and
 
 ## 📸 Screenshots
 
-![Landing Page](./screenshots/landing.png)
+![Landing Page](https://github.com/user-attachments/assets/9c4d3fb4-7a65-44ca-8537-6f974404a70e)
+![Landing Page](https://github.com/user-attachments/assets/098c042b-b20e-4114-ada2-4736c567877d)
 *Landing Page - Welcome and Features*
 
-![Login Page](./screenshots/login.png)
+![Login Page](https://github.com/user-attachments/assets/0cc6304f-f291-4993-8fb9-d64c6a4a96e6)
 *Authentication - Login Form*
 
-![Register Page](./screenshots/register.png)
+![Register Page](https://github.com/user-attachments/assets/ec1dac06-afa6-4614-a16e-b1b56b56e839)
 *Authentication - Registration Form*
 
-![Dashboard](./screenshots/dashboard-full.png)
+![Dashboard](https://github.com/user-attachments/assets/52b1f14d-0de1-491e-bd26-408ec12fc599)
 *Dashboard - Complete Task Management Interface*
 
-![Task Form](./screenshots/task-form.png)
+![Task Form](https://github.com/user-attachments/assets/d1896cf2-a0ee-45a6-9b6e-407cebcb8181)
 *Task Creation/Editing Form*
 
-![Search and Filter](./screenshots/search-filter.png)
+![Search and Filter](https://github.com/user-attachments/assets/3577bd6a-b6aa-44f8-bf86-6b0dd4574f91)
+![Search and Filter](https://github.com/user-attachments/assets/600cbe59-0c22-48c1-aff6-41c4b69004f6)
+![Search and Filter](https://github.com/user-attachments/assets/faa6db2c-348e-42b1-bd65-328d3c0b3c84)
 *Search and Filter Functionality*
 
 ## 🚀 Quick Start
@@ -86,14 +89,14 @@ A full-stack task management web application built with Next.js 14, MongoDB, and
 3. **Set up environment variables**
    
    Create a `.env.local` file in the root directory:
-   \`\`\`env
+   ```env
    MONGODB_URI=mongodb://localhost:27017/taskmanager
    # OR for MongoDB Atlas:
    # MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/taskmanager
    
    JWT_SECRET=your-super-secret-jwt-key-here
    NODE_ENV=development
-   \`\`\`
+   ```
 
 4. **Run the development server**
    \`\`\`bash
@@ -114,7 +117,7 @@ A full-stack task management web application built with Next.js 14, MongoDB, and
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/
 │   ├── api/
 │   │   ├── auth/          # Authentication endpoints
@@ -140,7 +143,7 @@ A full-stack task management web application built with Next.js 14, MongoDB, and
 │   ├── auth.ts          # JWT utilities
 │   └── mongodb.ts       # Database connection
 └── middleware.ts         # Route protection
-\`\`\`
+```
 
 ## 🔗 API Endpoints
 
@@ -234,6 +237,6 @@ The app includes comprehensive error handling and loading states. Test the follo
 
 **Live Demo**: [Your Deployed App URL]
 
-**Repository**: [Your GitHub Repository URL]
+**Repository**: https://github.com/Ankush1oo8/Full-Stack-Task-Manager
 
 Built using Next.js, MongoDB, and modern web technologies.
