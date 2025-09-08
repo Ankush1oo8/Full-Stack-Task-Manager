@@ -235,7 +235,7 @@ The app includes comprehensive error handling and loading states. Test the follo
 
 ---
 
-**Live Demo**: [Your Deployed App URL]
+**Live Demo**: https://full-stack-task-manager-ruddy.vercel.app
 
 **Repository**: https://github.com/Ankush1oo8/Full-Stack-Task-Manager
 
